@@ -1,6 +1,6 @@
 # Espresso Tests
 
-This is an Android shopping app built with Jetpack Compose consuming [FAKE STORE API](https://fakestoreapi.com/) specifically designed for integrating Espresso UI Tests.
+This is an Android shopping app built with Jetpack Compose consuming the [Fake Store API](https://fakestoreapi.com/) specifically designed for integrating Espresso UI Tests.
 
 ## Technology
 
