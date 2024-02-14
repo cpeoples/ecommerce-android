@@ -1,39 +1,23 @@
+# Espresso Tests
 
-# BuyCart 🛒
-Android shopping app built with Jetpack Compose consuming [FAKE STORE API](https://fakestoreapi.com/)
+This is an Android shopping app built with Jetpack Compose consuming [FAKE STORE API](https://fakestoreapi.com/) specifically designed for integrating Espresso UI Tests.
 
-- I am trying to learn and follow some standard Android architecture designs, pardon any mistakes you might encounter
+## Technology
 
-## ScreenShots
+<center><div style="display: inline_block"><br/>
+<img align="center" alt="android studio" height="60" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Android_Studio_icon_%282023%29.svg/256px-Android_Studio_icon_%282023%29.svg.png" />
+<img align="center" alt="kotlin" height="50" src="https://upload.wikimedia.org/wikipedia/commons/0/06/Kotlin_Icon.svg" />
+<img align="center" alt="jetpack compose" height="75" src="https://camo.githubusercontent.com/bc5f1ea212c96fee945e593dfd433421f74c500b70e0fd5d31a6d064a94f77e1/68747470733a2f2f7461627269732e636f6d2f77702d636f6e74656e742f75706c6f6164732f323032312f30362f6a65747061636b2d636f6d706f73652d69636f6e5f5247422e706e67" />
+<img align="center" alt="retrofit" height="55" src="https://avatars.githubusercontent.com/u/82592?s=48&v=4" />
+<img align="center" alt="coil" height="60" src="https://avatars.githubusercontent.com/u/52722434?s=48&v=4" />
+</center>
 
-Product Screen             | Product and Category Screen     | Product Detail Screen
-:-------------------------:|:-------------------------:|:-------------------------:
-<img src="screenshots/product_screen.jpg"/>            |  <img src="screenshots/product_category_screen.jpg"/>  | <img src="screenshots/product_detail_screen.jpg"/>  |
+## Install Dependencies
 
-WishList Screen            | Cart Screen               | Cart Screen
-:-------------------------:|:-------------------------:|:-------------------------:
-<img src="screenshots/wishlist_screen.jpg"/>           |  <img src="screenshots/cart_screen.jpg"/>              | <img src="screenshots/cart_bottom_sheet_screen.jpg"/>  |
+<br/>
 
-## Tech Stack.
-- [Kotlin](https://developer.android.com/kotlin) - Kotlin is a programming language that can run on JVM. Google has announced Kotlin as one of its officially supported programming languages in Android Studio; and the Android community is migrating at a pace from Java to Kotlin.
-- Jetpack components:
-    - [Jetpack Compose](https://developer.android.com/jetpack/compose) - Jetpack Compose is Android’s modern toolkit for building native UI. It simplifies and accelerates UI development on Android. Quickly bring your app to life with less code, powerful tools, and intuitive Kotlin APIs.
-    - [Android KTX](https://developer.android.com/kotlin/ktx.html) - Android KTX is a set of Kotlin extensions that are included with Android Jetpack and other Android libraries. KTX extensions provide concise, idiomatic Kotlin to Jetpack, Android platform, and other APIs.
-    - [AndroidX](https://developer.android.com/jetpack/androidx) - Major improvement to the original Android [Support Library](https://developer.android.com/topic/libraries/support-library/index), which is no longer maintained.
-    - [Lifecycle](https://developer.android.com/topic/libraries/architecture/lifecycle) - Lifecycle-aware components perform actions in response to a change in the lifecycle status of another component, such as activities and fragments. These components help you produce better-organized, and often lighter-weight code, that is easier to maintain.
-    - [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) -The ViewModel class is designed to store and manage UI-related data in a lifecycle conscious way.
-    - [Room database](https://developer.android.com/training/data-storage/room) - The Room persistence library provides an abstraction layer over SQLite to allow fluent database access while harnessing the full power of SQLite.
+## Alias
 
-- [Kotlin Coroutines](https://developer.android.com/kotlin/coroutines) - A concurrency design pattern that you can use on Android to simplify code that executes asynchronously.
-- [Retrofit](https://square.github.io/retrofit) -  Retrofit is a REST client for Java/ Kotlin and Android by Square inc under Apache 2.0 license. Its a simple network library that is used for network transactions. By using this library we can seamlessly capture JSON response from web service/web API.
-- [GSON](https://github.com/square/gson) - JSON Parser,used to parse requests on the data layer for Entities and understands Kotlin non-nullable and default parameters.
-- [Kotlin Flow](https://developer.android.com/kotlin/flow) - In coroutines, a flow is a type that can emit multiple values sequentially, as opposed to suspend functions that return only a single value.
-- [Dagger Hilt](https://developer.android.com/training/dependency-injection/hilt-android) - A dependency injection library for Android that reduces the boilerplate of doing manual dependency injection in your project.
-- [Logging Interceptor](https://github.com/square/okhttp/blob/master/okhttp-logging-interceptor/README.md) -  logs HTTP request and response data.
-- [Coil](https://coil-kt.github.io/coil/compose/)- An image loading library for Android backed by Kotlin Coroutines.
-- [Timber](https://github.com/JakeWharton/timber)- A logger with a small, extensible API which provides utility on top of Android's normal Log class.
+<br/>
 
-
-## Credits
-- [JoeyKanyi](https://github.com/JoelKanyi/Joomia) - Joey's repo gave me a lot of insight and resources
-- [Nazmul Hassan](https://www.behance.net/gallery/135792591/eCommerce-app?tracking_source=search_projects_recommended%7Cecommerce%20%20app) - UI inspiration came from this beautiful Behance project
+## How to Install and Run Locally
